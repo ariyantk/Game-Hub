@@ -12,7 +12,7 @@ interface Props {
 
 const GameGrid = ({ selectedPlatform, selectedGenre }: Props) => {
   const { data, error, isLoading } = useGames(selectedGenre, selectedPlatform);
-  const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
     <>

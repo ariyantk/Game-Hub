@@ -23,7 +23,7 @@ const useGames = (
     "/games",
     {
       params: {
-        genre: selectedGenre?.id,
+        genres: selectedGenre?.id,
         platform: selectedPlatform?.id,
       },
     },
